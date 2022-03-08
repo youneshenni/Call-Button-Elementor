@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Plugin Name: Elementor Call Button Widget
+ * Plugin Name: Call Button Widget for Elementor
  * Description: Auto embed any embbedable content from external URLs into Elementor.
  * Plugin URI:  https://github.com/youneshenni/
  * Version:     1.0.0
  * Author:      Younes Henni
  * Author URI:  https://github.com/youneshenni/
- * Text Domain: elementor-call-widget
+ * Text Domain: call-widget-elementor
  *
  * Elementor tested up to: 3.5.0
  * Elementor Pro tested up to: 3.5.0

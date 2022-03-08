@@ -38,7 +38,7 @@ class Elementor_Call_Widget extends \Elementor\Widget_Base
      */
     public function get_title()
     {
-        return esc_html__('Call', 'elementor-call-widget');
+        return esc_html__('Call', 'call-widget-elementor');
     }
 
     /**
@@ -111,7 +111,7 @@ class Elementor_Call_Widget extends \Elementor\Widget_Base
         $this->start_controls_section(
             'data',
             [
-                'label' => esc_html__('Data', 'elementor-call-widget'),
+                'label' => esc_html__('Data', 'call-widget-elementor'),
                 'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
             ]
         );
@@ -119,10 +119,10 @@ class Elementor_Call_Widget extends \Elementor\Widget_Base
         $this->add_control(
             'number',
             [
-                'label' => esc_html__('Phone number', 'elementor-call-widget'),
+                'label' => esc_html__('Phone number', 'call-widget-elementor'),
                 'type' => \Elementor\Controls_Manager::TEXT,
                 'input_type' => 'tel',
-                'placeholder' => esc_html__('0656321407', 'elementor-call-widget'),
+                'placeholder' => esc_html__('0656321407', 'call-widget-elementor'),
                 'default' => '+213656321407'
             ]
         );
@@ -132,7 +132,7 @@ class Elementor_Call_Widget extends \Elementor\Widget_Base
         $this->start_controls_section(
             'display',
             [
-                'label' => esc_html__('Display', 'elementor-call-widget'),
+                'label' => esc_html__('Display', 'call-widget-elementor'),
                 'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
 
             ]
@@ -141,10 +141,10 @@ class Elementor_Call_Widget extends \Elementor\Widget_Base
         $this->add_control(
             'label',
             [
-                'label' => esc_html__('Button label', 'elementor-call-widget'),
+                'label' => esc_html__('Button label', 'call-widget-elementor'),
                 'type' => \Elementor\Controls_Manager::TEXT,
                 'input_type' => 'text',
-                'placeholder' => esc_html__('0656321407', 'elementor-call-widget'),
+                'placeholder' => esc_html__('0656321407', 'call-widget-elementor'),
                 'default' => '+213656321407'
             ]
         );
@@ -152,7 +152,7 @@ class Elementor_Call_Widget extends \Elementor\Widget_Base
         $this->add_control(
             'icon',
             [
-                'label' => esc_html__('Icon', 'elementor-call-widget'),
+                'label' => esc_html__('Icon', 'call-widget-elementor'),
                 'type' => \Elementor\Controls_Manager::ICONS,
                 'default' => [
                     'value' => 'fas fa-phone',
@@ -205,7 +205,7 @@ class Elementor_Call_Widget extends \Elementor\Widget_Base
         $this->start_controls_section(
             'css',
             [
-                'label' => esc_html__('Custom CSS', 'elementor-call-widget'),
+                'label' => esc_html__('Custom CSS', 'call-widget-elementor'),
                 'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
             ]
         );
