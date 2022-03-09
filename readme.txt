@@ -1,12 +1,12 @@
-Call Button Widget for Elementor is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-any later version.
+=== Call Widget for Elementor ===
+Contributors: youneshenni
+Donate link: -
+Tags: call, button, elementor, phone, tel, telephone
+Requires at least: 4.7
+Tested up to: 5.4
+Stable tag: 4.3
+Requires PHP: 7.0
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
  
-Call Button Widget for Elementor is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
- 
-You should have received a copy of the GNU General Public License
-along with Call Button Widget for Elementor. If not, see {URI to Plugin License}.
+This plugin installs a new widget to Elementor called "Call Widget", it allows you to create a call button that's clickable on mobile devices (It allows them to directly dial the number you have specified in the widget configuration)

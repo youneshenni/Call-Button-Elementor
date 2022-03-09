@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: Call Button Widget for Elementor
- * Description: Auto embed any embbedable content from external URLs into Elementor.
+ * Description: This plugin installs a new widget to Elementor called "Call Widget", it allows you to create a call button that's clickable on mobile devices (It allows them to directly dial the number you have specified in the widget configuration)
  * Plugin URI:  https://github.com/youneshenni/Call-Button-Elementor
  * Version:     1.0.0
  * Author:      Younes Henni

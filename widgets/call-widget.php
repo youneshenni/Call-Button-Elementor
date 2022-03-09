@@ -300,7 +300,7 @@ class Elementor_Call_Widget extends \Elementor\Widget_Base
             echo '<div class="call-elementor-widget-icon" id="' . $id['icon'] . '">';
             \Elementor\Icons_Manager::render_icon($settings['icon'], ['aria-hidden' => 'true']);
             echo '</div>';
-            echo '<span class="call-elementor-widget-label id="' . $id['label'] . '">' . $settings['label'] . '</span>';
+            echo '<span class="call-elementor-widget-label" id="' . $id['label'] . '">' . $settings['label'] . '</span>';
             echo '</a>';
             echo '</div>';
         }
