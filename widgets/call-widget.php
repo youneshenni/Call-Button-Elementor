@@ -290,17 +290,17 @@ class Elementor_Call_Widget extends \Elementor\Widget_Base
 
             <?php
             foreach ($id as $key => $value) {
-                echo '#' . $value . ' {';
-                echo $settings['custom_css_' . $key];
+                echo '#' . esc_attr($value) . ' {';
+                echo esc_html($settings['custom_css_' . $key]);
                 echo '} ';
             }
             echo '</style>';
-            echo '<div class="call-elementor-widget-container" id="' . $id['container'] . '">';
-            echo '<a href="tel:' . $settings['number'] . '" class="call-elementor-widget-button" id="' . $id['button'] . '">';
-            echo '<div class="call-elementor-widget-icon" id="' . $id['icon'] . '">';
+            echo '<div class="call-elementor-widget-container" id="' . esc_attr($id['container']) . '">';
+            echo '<a href="tel:' . esc_attr($settings['number']) . '" class="call-elementor-widget-button" id="' . esc_attr($id['button']) . '">';
+            echo '<div class="call-elementor-widget-icon" id="' . esc_attr($id['icon']) . '">';
             \Elementor\Icons_Manager::render_icon($settings['icon'], ['aria-hidden' => 'true']);
             echo '</div>';
-            echo '<span class="call-elementor-widget-label" id="' . $id['label'] . '">' . $settings['label'] . '</span>';
+            echo '<span class="call-elementor-widget-label" id="' . esc_attr($id['label']) . '">' . esc_attr($settings['label']) . '</span>';
             echo '</a>';
             echo '</div>';
         }
